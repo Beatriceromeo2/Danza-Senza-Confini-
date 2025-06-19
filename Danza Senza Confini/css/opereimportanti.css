@@ -1,0 +1,292 @@
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.zoom{
+  transition: transform 0.3s ease;
+  box-shadow: 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.zoom:hover{
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.intestazione {
+  color:rgba(121, 0, 43, 1);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+  .intestazionezoom{
+      transition: transform 0.2s ease;
+  box-shadow: 0.2s ease;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
+  }
+  .intestazionezoom:hover{
+  transform: scale(1.2);
+}
+.intestazione {
+text-align: left;
+display: flex;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 5px;
+background-color: white;
+border-bottom: 3px solid whitesmoke;
+font-weight:bold ;
+}
+.nav-link{
+  transition: transform 0.2s ease;
+  box-shadow: 0.2s ease;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover{
+  transform: scale(1.2);
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 35px;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black;
+font-size: 14px;
+}
+.nav .opereimportanti {
+color:rgba(121, 0, 43, 1);
+}
+h1 {
+  font-size: 36px;
+  color:rgba(121, 0, 43, 1);
+}
+
+h2{
+  margin-top: 5px;
+  line-height: 30px;
+  color:rgba(147, 50, 85, 1); 
+  width: 75%;
+  font-size: 18px;
+}
+
+  .introduzione {
+    padding: 64px 32px;
+    gap: 64px;
+    align-items: center;
+    display: flex;
+  }
+  .introduzione p{
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  .titolo{
+    width: 50%;
+  }
+  .intro {
+    width: 50%;
+  }
+.corpo{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.danze {
+  margin-top: 100px;
+ padding: 64px 32px; 
+}
+.fototesto img{
+    display: block;
+    border-radius: 10px;
+    margin-left: 0;
+}
+.fototesto{
+width: 50%;
+}
+.testo{
+  width: 50%;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  flex-direction: row;
+}
+article {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 100px;
+}
+
+article:nth-child(even) {
+  flex-direction: row-reverse;
+  gap: 64px;
+}
+.zoomtitolo{
+  transition: transform 0.3s ease ;
+  box-shadow: 0.3s ease;
+  margin-right: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+}
+.zoomtitolo:hover{
+  transform: scale(1.1);
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 ;
+}
+
+.fototesto a {
+  color: rgba(121, 0, 43, 1);
+  text-decoration: none;
+  font-weight:bold ;
+  margin-top: 30px;
+}
+
+.footer {
+  color:rgba(121, 0, 43, 1);
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid whitesmoke;
+  margin-top: 50px;
+  text-align: left;
+  font-size: small;
+  padding: 40px;
+  line-height: 5px;
+}
+.footer-column{
+  flex: 1;
+  margin: 0 10px;
+}
+.footer p{
+  padding: 1px;
+  font-size: small;
+}
+.footer a {
+  padding: 1px;
+  text-decoration: none;
+  color:rgba(121, 0, 43, 1);
+}
+.footer .borderright {
+  border-right: 1px solid rgba(121, 0, 43, 1);
+}
+@media (max-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+    }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intestazione {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px ;
+    gap: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .corpo {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+   h1 {
+    font-size: 24px;
+    margin: 0px 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin: 10px ;
+  }
+  
+  .introduzione{
+    flex-direction: column;
+  }
+
+  .intro, .titolo, .fototesto {
+    width: 100%;
+  }
+.danze{
+  margin: 0;
+}
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+    article:nth-child(even) {
+    flex-direction: column;
+  } 
+   .testo{
+    width: 100%;
+   } 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .footer a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+}

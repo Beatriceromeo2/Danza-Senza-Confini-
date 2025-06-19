@@ -1,0 +1,350 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+img{
+  width: 100%;
+  display: block;
+}
+  
+  .intestazione {
+    color:rgba(121, 0, 43, 1);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+    .intestazionezoom{
+      transition: transform 0.2s ease;
+  box-shadow: 0.2s ease;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
+  }
+  .intestazionezoom:hover{
+  transform: scale(1.2);
+}
+.intestazione {
+  text-align: left;
+  display: flex;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: white;
+  border-bottom: 3px solid whitesmoke;
+  font-weight:bold ;
+}
+.nav-link{
+  transition: transform 0.2s ease;
+  box-shadow: 0.2s ease;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover{
+  transform: scale(1.2);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.nav .ladanza{
+  color:rgba(121, 0, 43, 1);
+}
+h1 {
+    font-size: 36px;
+    color:rgba(121, 0, 43, 1);
+  }
+  h2{
+    margin-top: 5px;
+    line-height: 30px;
+    color:rgba(147, 50, 85, 1); 
+    width: 75%;
+    font-size: 18px;
+  }
+h3{
+    color:rgba(121, 0, 43, 1); 
+    width: 50%;
+    font-size: 28px;
+     margin-bottom: 10px;
+     font-weight:bold ;
+}
+  .introduzione {
+    padding: 64px 32px;
+    gap: 64px;
+    align-items: center;
+    display: flex;
+  }
+.intro {
+  width: 50%;
+}
+  .titolo {
+    width: 50%;
+  }
+  .corpo{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  section {
+  margin-bottom: 40px;
+}
+  p {
+    font-size: 16px;
+  }
+  
+  .paragrafo1 {
+  margin-top: 100px;
+  display: flex;
+  padding: 64px 32px;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: space-between;
+  gap: 64px;
+  } 
+  .contenutotesto{
+     width: 50%;
+  }
+  ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+  .paragrafo1 h3{
+    width: 50%;
+    margin: 0;
+   
+  }
+  .pallino {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(121, 0, 43, 1);
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .paragrafo2 {
+    margin-top: 150px;
+    display: flex;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 100%;
+  }
+  .scritte{
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+  }
+  .paragrafo2 h3{
+    width: 100%;
+    margin: 0;
+  }
+  .foto img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 160px;
+  }
+  .foto{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  .paragrafo3 {
+    margin-top: 150px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .paragrafo3 h3{
+    width: 50%;
+    margin: 10px;
+    margin-left: 10%;
+  }
+  .paragrafo3 p{
+    width: 100%;
+    margin-right: 20%;
+  }
+  .footer {
+    color:rgba(121, 0, 43, 1);
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid whitesmoke;
+    margin-top: 50px;
+    text-align: left;
+    font-size: small;
+    padding: 40px;
+    line-height: 5px;
+  }
+  .footer-column{
+    flex: 1;
+    margin: 0 10px;
+  }
+  .footer p{
+    padding: 1px;
+    font-size: small;
+  }
+  .footer a {
+    padding: 1px;
+    text-decoration: none;
+    color:rgba(121, 0, 43, 1);
+  }
+  .footer .borderright {
+    border-right: 1px solid rgba(121, 0, 43, 1);
+  }
+ 
+@media (max-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intestazione {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px ;
+    gap: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .corpo {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .introduzione {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 10px ;
+    text-align: center;
+    width: 100%;
+  }
+
+  .intro , .titolo{
+    width: 100%;
+
+  }
+
+  .paragrafo1 {
+    width: 100;
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px;
+  }
+  .contenutotesto{
+    width: 100%;
+  }
+  .paragrafo1 h3 {
+    width: 100%;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .paragrafo2 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .scritte {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .paragrafo2 h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .foto {
+    width: 100%;
+    margin-right: 160px;
+  }
+
+  .foto img {
+    width: 100%;
+    height: auto;
+  }
+
+  .paragrafo3 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .paragrafo3 h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .paragrafo3 p {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .footer a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

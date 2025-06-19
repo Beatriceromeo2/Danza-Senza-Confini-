@@ -1,0 +1,347 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+img{
+  width: 100%;
+}
+.intestazione {
+  color:rgba(121, 0, 43, 1);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.intestazione {
+text-align: left;
+display: flex;
+}
+  .intestazionezoom{
+      transition: transform 0.2s ease;
+  box-shadow: 0.2s ease;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
+  }
+  .intestazionezoom:hover{
+  transform: scale(1.2);
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 5px;
+background-color: white;
+border-bottom: 3px solid whitesmoke;
+font-weight:bold ;
+}
+.nav-link{
+  transition: transform 0.2s ease;
+  box-shadow: 0.2s ease;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+
+}
+.nav-link:hover{
+  transform: scale(1.2);
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 35px;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black;
+font-size: 14px;
+}
+
+.corpo {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.pagina img {
+  width:50%;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ margin-left: 325px;
+ margin-right: 100px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: rgba(121, 0, 43, 1);
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight:bold ;
+}
+
+p {
+  font-size: 16px;
+}
+
+.paragrafo1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+} 
+.paragrafo1 h1{
+  width: 50%;
+  margin: 10px;
+}
+.pallino {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(121, 0, 43, 1);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.paragrafo2 {
+  margin-top: 150px;
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  align-items: center;
+  max-width: 100%;
+}
+.scritte{
+  flex-direction: column;
+  width: 50%;
+  margin-left: 20px;
+}
+.paragrafo2 h1{
+  margin: 0;
+}
+.fotocarla img {
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.fotocarla{
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+}
+
+.paragrafo3 {
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.paragrafo3 h1{
+  width: 50%;
+  margin: 10px;
+  margin-left: 20%;
+}
+.paragrafo3 p{
+  width: 100%;
+  margin-right: 20%;
+}
+
+.paragrafo4 {
+  width: 100%;
+  margin-top: 150px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  border: 1px solid #eee;
+  
+}
+.paragrafo4 h1{
+  margin: 0;
+}
+.paragrafo4 p{
+  width: 100%;
+  justify-content: center;
+}
+.fotoclassica img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.footer {
+  color:rgba(121, 0, 43, 1);
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid whitesmoke;
+  margin-top: 50px;
+  text-align: left;
+  font-size: small;
+  padding: 40px;
+  line-height: 5px;
+}
+.footer-column{
+  flex: 1;
+  margin: 0 10px;
+}
+.footer p{
+  padding: 1px;
+  font-size: small;
+}
+.footer a {
+  padding: 1px;
+  text-decoration: none;
+  color:rgba(121, 0, 43, 1);
+}
+.footer .borderright {
+  border-right: 1px solid rgba(121, 0, 43, 1);
+}
+@media (max-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intestazione {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px ;
+    gap: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .corpo {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .pagina img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+  }
+
+  .paragrafo1,
+  .paragrafo3,
+  .paragrafo4 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .paragrafo3 p,
+  .paragrafo4 p {
+    width: 100%;
+  }
+.paragrafo4{
+  width: 95%;
+}
+  .pagina p {
+    font-size: 16px;
+  }
+
+  .paragrafo1 h1,
+  .paragrafo3 h1,
+  .paragrafo4 h1 {
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .fotoclassica{
+    width: 100%;
+  }
+  .fotoclassica img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .paragrafo2 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .scritte {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .paragrafo2 h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+    .fotocarla{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .fotocarla img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .footer a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
